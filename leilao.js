@@ -12,7 +12,7 @@ function actualLicitation() {
 }
 
 function licitantName() {
-  return $("a[class='detail_value odd currentPlayer']").html();
+  return $("a[class='detail_value odd currentPlayer']").html().trim();
 }
 
 function licita() {
