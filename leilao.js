@@ -8,7 +8,7 @@ function playerName() {
 }
 
 function actualLicitation() {
-  return parseInt($(".detail_value odd,.currentSum").html().replace('.',''));
+  return parseInt($(".detail_value odd,.currentSum").html().replace(/\./g,''));
 }
 
 function licitantName() {
